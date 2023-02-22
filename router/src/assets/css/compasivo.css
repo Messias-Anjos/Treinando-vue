@@ -1,0 +1,119 @@
+
+@media only screen and (max-width: 800px) {
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        text-align: center;
+    }
+    .logo h1{
+        padding-left: 0;
+    }
+    .centro{
+        position: relative;
+    }
+    .imgmaior{
+        width: 100%;
+        height: 500px;
+    }
+    .h2maior{
+        position: absolute;
+        top: 130px;
+        left: 50px;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .pmaior{
+        position: absolute;
+        top: 210px;
+        left: 50px;
+        color: white;
+        letter-spacing: 15px;
+        font-size: 17px;
+    }
+    .amaior{
+        position: absolute;
+        top: 280px;
+        left: 50px;
+        padding: 10px;
+        font-size: 12px;
+    }
+    .amaior:hover{
+        background-color: #B8860b;
+        box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.669);
+    }
+    .whats{
+        width: 50px;
+        height: 50px;
+        bottom: 12px;
+        right: 6px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .imgmaior{
+        width: 100%;
+        height: 400px;
+    }
+    .h2maior{
+        position: absolute;
+        top: 140px;
+        left: 15px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .pmaior{
+        position: absolute;
+        top: 180px;
+        left: 15px;
+        color: white;
+        letter-spacing: 8px;
+        font-size: 10px;
+    }
+    .amaior{
+        position: absolute;
+        top: 230px;
+        left: 15px;
+        padding: 10px;
+        font-size: 8px;
+    }
+    .amaior:hover{
+        background-color: #B8860b;
+        box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.669);
+    }
+    .fundo h3{
+        font-size: 13px;
+    }
+
+
+    #Home1{
+        font-size: 30px;
+        margin-top: 2px;
+    }
+
+    #video{
+        font-size: 13px;
+        right: 30%;
+    }
+
+    #imagem{
+        font-size: 10px;
+    }
+    .texto1 img{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .about{
+        width: 90%;
+    }
+
+} 

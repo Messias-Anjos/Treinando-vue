@@ -1,6 +1,6 @@
 <template>
-  <div>
-    So bora
+  <div id="c1">
+    
   </div>
 </template>
 
@@ -11,5 +11,9 @@ export default {
 </script>
 
 <style>
+
+#c1{
+  
+}
 
 </style>

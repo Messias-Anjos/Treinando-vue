@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <nav>
-      <router-link id="Home1" to="/">Noticia Local</router-link> 
-      <router-link id="video" to="/about">Videos</router-link> 
-      <router-link id="imagem" :to="{name: 'NovoArquivo'}">Imagens</router-link>
+      <router-link id="Home1" to="/">Texto Teste</router-link> 
+      <router-link id="video" to="/about">Mais Projetos</router-link> 
+      <router-link id="imagem" :to="{name: 'NovoArquivo'}">Fale Conosco</router-link>
     </nav>
     <router-view/>
   </div>
@@ -33,6 +33,6 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #B8860b;
 }
 </style>
